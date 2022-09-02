@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+    height: 100vh;
+}
+.image{
+    width: 40px;
+}
+h1, h3{
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    margin-top: 50px;
+}
