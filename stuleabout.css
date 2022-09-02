@@ -11,7 +11,7 @@ body {
 .image{
     width: 40px;
 }
-h1, h3{
+h1{
     color: var(--text-color-pimar);
     font-family: monospace;
     margin-top: 50px;
@@ -25,35 +25,10 @@ p {
     font-family: monospace;
     margin-top: 20px;
 }
+
 .col{
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
     margin-bottom: 30px;
-}
-.cats {
-    
-    display: flex;
-    justify-content: space-around;
-}
-.btn {
-    background: linear-gradient(179.4deg, #0c1445 -16.9%, rgb(71, 30, 84) 119.9%);
-    color: var(--text-color-pimar);
-    
-
-}
-.btn:hover {
-    color: var(--secondary-color);
-}
-.card {
-    background-color: var(--secondary-color);
-}
-.card-title {
-    color: var(--text-color-secondary);
-    display: flex;
-    justify-content: space-around;
-}
-.card-text {
-    color: var(--text-color-secondary);
-    
 }
