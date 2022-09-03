@@ -28,7 +28,7 @@ p {
 }
 .col{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 10px;
     overflow-x:hidden;
 }
@@ -48,7 +48,7 @@ p {
 .card-title {
     color: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 .card-text {
     color:var(--dark-color);
