@@ -2,6 +2,7 @@
     --secondary-color: rgb(255, 255, 247);
     --text-color-pimar:  rgb(245, 245, 217);
     --text-color-secondary: #bd4abf;
+    --dark-color: #000000;
 }
 body {
    
@@ -12,15 +13,15 @@ body {
     width: 40px;
 }
 h1, h3{
-    color: black;
+    color: var(--dark-color);
     font-family: monospace;
-    margin-top: 50px;
+    margin-top: 5px;
     padding-top: 10px;
     text-align: center;
 }
   
 p {
-    color: black;
+    color: var(--dark-color);
     text-align: center;
     font-family: monospace;
     margin-top: 20px;
@@ -50,6 +51,6 @@ p {
     justify-content: space-around;
 }
 .card-text {
-    color: black;
+    color:var(--dark-color);
     
 }
