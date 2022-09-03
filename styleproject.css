@@ -1,7 +1,8 @@
 :root {
-    --secondary-color: rgb(245, 245, 217);
-    --text-color-pimar:  rgb(225, 216, 204);
-    --text-color-secondary: black;
+    --secondary-color: rgb(255, 255, 247);
+    --text-color-pimar:  rgb(245, 245, 217);
+    --text-color-secondary: #bd4abf;
+    --dark-color: #000000;
 }
 body {
     background: var(--text-color-pimar);
@@ -11,23 +12,19 @@ body {
 .image{
     width: 40px;
 }
-.catimage {
-    display: flex;
-    justify-content:center;
-}
-h1, h2{
-    display: flex;
-    color: var(--text-color-secondary);
-    font-family: monospace;
-    display: flex;
+h1, p {
     text-align: center;
-    justify-content: center;
-    padding-top: 30px;
-}
-  
-p {
-    color: var(--text-color-secondary);
-    text-align: center;
+    margin-top: 5px;
     font-family: monospace;
-    margin-top: 20px;
+}
+.card-title{
+    text-align: center;
+}
+.btn {
+    background: #343A40;
+    color: var(--text-color-pimar);
+}
+.btn:hover {
+    color: var(--text-color-pimar);
+    background-color: #0c1445;
 }
