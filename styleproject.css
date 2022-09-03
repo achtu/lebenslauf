@@ -16,6 +16,10 @@ h1, p {
     text-align: center;
     margin-top: 5px;
     font-family: monospace;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 .card-title{
     text-align: center;
@@ -27,4 +31,10 @@ h1, p {
 .btn:hover {
     color: var(--text-color-pimar);
     background-color: #0c1445;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    overflow-x:hidden;
 }
