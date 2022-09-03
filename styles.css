@@ -29,7 +29,7 @@ p {
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
-    
+    overflow-x:hidden;
 }
 
 .btn {
@@ -42,6 +42,7 @@ p {
 }
 .card {
     background-color: var(--secondary-color);
+    overflow-x:hidden;
 }
 .card-title {
     color: black;
