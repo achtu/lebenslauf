@@ -1,8 +1,7 @@
 :root {
     --secondary-color: rgb(255, 255, 247);
     --text-color-pimar:  rgb(245, 245, 217);
-    --text-color-secondary: #bd4abf;
-    --dark-color: #000000;
+    --dark-color: #343A40;
 }
 body {
     background: var(--text-color-pimar);
@@ -20,21 +19,56 @@ h1, p {
     margin-left: 5px;
     margin-top: 5px;
     margin-bottom: 10px;
-}
-.card-title{
-    text-align: center;
-}
-.btn {
-    background: #343A40;
-    color: var(--text-color-pimar);
-}
-.btn:hover {
-    color: var(--text-color-pimar);
-    background-color: #0c1445;
+   
 }
 .col{
     display: flex;
     justify-content: center;
     margin-top: 10px;
     overflow-x:hidden;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.card {
+    background-color: var(--secondary-color);
+    overflow-x:hidden;
+}
+.card-title {
+    color: var(--dark-color);
+    display: flex;
+    justify-content: center;
+}
+.card-text {
+    color:var(--dark-color);
+    
+}
+
+h1, h3{
+    color: var(--dark-color);
+    font-family: monospace;
+    margin-top: 5px;
+    padding-top: 10px;
+    text-align: center;
+}
+  
+p {
+    color: var(--dark-color);
+    text-align: center;
+    font-family: monospace;
+    margin-top: 20px;
+}
+.info{
+    background-color:#343A40;
+    color: var(--text-color-pimar);
+    padding: 10px;
+    border-radius: 5px;
+}
+.info:hover{
+    text-decoration: none;
+    background-color: #0c1445;
+    color: var(--secondary-color);
 }
