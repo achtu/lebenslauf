@@ -35,6 +35,7 @@ p {
 .row{
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 5px;
 }
 .btn {
     background: #343A40;
@@ -42,7 +43,7 @@ p {
 }
 .btn:hover {
     color: var(--text-color-pimar);
-    background-color: #0c1445;
+    background-color: #FE8CC0;
 }
 .card {
     background-color: var(--secondary-color);

@@ -69,6 +69,6 @@ p {
 }
 .info:hover{
     text-decoration: none;
-    background-color: #0c1445;
+    background-color: #FE8CC0;
     color: var(--secondary-color);
 }
