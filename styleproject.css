@@ -1,0 +1,33 @@
+:root {
+    --secondary-color: rgb(245, 245, 217);
+    --text-color-pimar:  rgb(225, 216, 204);
+    --text-color-secondary: black;
+}
+body {
+    background: var(--text-color-pimar);
+   width: 100%;
+   overflow-x:hidden;
+}
+.image{
+    width: 40px;
+}
+.catimage {
+    display: flex;
+    justify-content:center;
+}
+h1, h2{
+    display: flex;
+    color: var(--text-color-secondary);
+    font-family: monospace;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+  
+p {
+    color: var(--text-color-secondary);
+    text-align: center;
+    font-family: monospace;
+    margin-top: 20px;
+}
