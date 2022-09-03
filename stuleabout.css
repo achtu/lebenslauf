@@ -11,7 +11,7 @@ body {
 .image{
     width: 40px;
 }
-h1{
+h1, h2{
     color: black;
     font-family: monospace;
     margin-top: 50px;
@@ -39,5 +39,15 @@ p {
 }
 .card-title-nora {
     text-align: center;
+    
+}
+.catslist {
+    display: flex;
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 30px;
     
 }
