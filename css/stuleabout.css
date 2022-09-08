@@ -2,9 +2,11 @@
     --secondary-color: rgb(245, 245, 217);
     --text-color-pimar:  rgb(232, 222, 209);
     --text-color-secondary: #bd4abf;
+    --background-color: rgba(237, 220, 243, 0.853);
 }
+
 body {
-    background: var(--secondary-color);
+    background: var(--background-color);
    width: 100%;
    overflow-x:hidden;
 }
